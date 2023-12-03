@@ -6,7 +6,7 @@ Superuser: username - EZbackend.
            password - EZ@123.
 
 
-************************Test Caese*****************************
+************************Test Cases*****************************
 While logging in: if the user is not found or the password is incorrect.
                   if the user profile is not verified or if there's an issue with the login process.
 
