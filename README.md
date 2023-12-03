@@ -1,4 +1,4 @@
-*****************************Operation User***************************
+****************************Operation User***************************
 The superuser is an Operation User that can only add files using the Django admin panel.
 
 
@@ -38,7 +38,7 @@ Configure Django to collect static files in a central location. This is necessar
 python manage.py collectstatic
 
 5. Configure WSGI Server:
-Choose a WSGI server like Gunicorn or uWSGI to serve your Django application. Install the chosen server and configure it. For example, if using Gunicorn:
+Choose a WSGI server like Gunicorn or uWSGI to serve our Django application. Install the chosen server and configure it. For example, if using Gunicorn:
 pip install gunicorn
 Create a Gunicorn configuration file (e.g., gunicorn_config.py) and run Gunicorn:
 
@@ -54,7 +54,7 @@ Obtain an SSL certificate and configure your web server to enable HTTPS. This is
 Implement regular backups for your production database to prevent data loss. Schedule automated database backups and store them securely.
 
 10. Monitor and Logging:
-Implement monitoring tools to keep an eye on your application's health, performance, and potential issues. Configure logging to record relevant information, making debugging easier.
+Implement monitoring tools to keep an eye on our application's health, performance, and potential issues. Configure logging to record relevant information, making debugging easier.
 
 11. Automate Deployment Process:
 Use deployment tools like Fabric, Ansible, or Docker to automate the deployment process. This ensures consistency and reproducibility across different environments.
