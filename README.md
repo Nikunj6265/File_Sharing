@@ -1,4 +1,4 @@
-**********************************Operation User***************************
+*****************************Operation User***************************
 The superuser is an Operation User that can only add files using the Django admin panel.
 
 
@@ -6,7 +6,7 @@ Superuser: username - EZbackend.
            password - EZ@123.
 
 
-************************Test Cases*****************************
+*****************************Test Cases*****************************
 While logging in: if the user is not found or the password is incorrect.
                   if the user profile is not verified or if there's an issue with the login process.
 
